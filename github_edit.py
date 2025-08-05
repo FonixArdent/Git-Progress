@@ -25,11 +25,7 @@ class Master:
     def GitCheck(self) -> bool:
         try:
             repo = self.GitHub.get_repo(f"{self.GitUser}/{self.GitData[0]}")
-<<<<<<< HEAD
            # print(f"✅ Repository found: {repo.full_name}") >> test
-=======
-            # print(f"✅ Repository found: {repo.full_name}")
->>>>>>> 6dacb9028e0ff6cec8d446fdfbb8e322b80bbb75
             return True
         except GithubException as e:
             show_box(e.status if e.status in (404, 403) else 505, e)
