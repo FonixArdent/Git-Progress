@@ -1,0 +1,10 @@
+# Files containing sensitive data
+*.config.local
+
+
+# Local configuration files
+config.local.*
+settings.local.*
+
+# Build File
+build/*
