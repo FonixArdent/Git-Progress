@@ -23,8 +23,13 @@ This README provides all the essential information you need.
 
 ```bash
 git clone https://github.com/FonixArdent/progress.git
+<<<<<<< HEAD
 cd Git_Progress #if it's needed
 pip install -r requirements.txt
+=======
+cd Git-Progress #if you need
+pip install -r requirement.txt
+>>>>>>> 743de6ece7f3378137d5c9787ebbe856253b60df
 ```
 
 ---
