@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💠 You Can install Progress Git The App
+## ✔️ You Can install Progress Git The App
 
 - We Have An Application To Use This Programme you need just to add `Progress : ` on every Read Me You make.
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 3. Enter Your Information on that app
 
-## 💠 What is new about GitProgress 1.0 :
+## 💠 What is new about GitProgress 1.0 app:
 
 - Made some change for the main program and fix some problems 
 - Changing the text displayed on the main window
