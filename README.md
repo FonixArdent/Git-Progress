@@ -1,9 +1,8 @@
 ------
 
-> Progress : 
+> Progress : 🔘 Updating
 
-🔘 Updating------
-
+------
 
 # 🚀 Project Progress
 
