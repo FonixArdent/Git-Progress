@@ -142,7 +142,7 @@ class NeonApp(QWidget):
 
         # GitHub token input
         self.token_input = QLineEdit()
-        self.token_input.setPlaceholderText("GitHub Personal Access Token")
+        self.token_input.setPlaceholderText("Access Token")
         self.token_input.setEchoMode(QLineEdit.EchoMode.Password)
         self.token_input.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
         left_col.addWidget(self.token_input)
@@ -162,7 +162,7 @@ class NeonApp(QWidget):
 
         # Repository input
         self.repo_input = QLineEdit()
-        self.repo_input.setPlaceholderText("example/repo-name")
+        self.repo_input.setPlaceholderText("repo-name")
         self.repo_input.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
         right_col.addWidget(self.repo_input)
 
