@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 3. Enter Your Information on that app
 
-## 💠 What is new about GitProgress 1.0 :
+## 💠 Check out What is new about GitProgress 1.0 app:
 
 - Made some change for the main program and fix some problems 
 - Changing the text displayed on the main window
