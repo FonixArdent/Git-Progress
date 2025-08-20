@@ -23,15 +23,15 @@ This README provides all the essential information you need.
 
 ```bash
 git clone https://github.com/FonixArdent/progress.git
-cd Git_Progress #if you need
-pip install -r requirement.txt
+cd Git_Progress #if it's needed
+pip install -r requirements.txt
 ```
 
 ---
 
 ## 💠 You Can install Progress Git The App
 
-- We Have An Application To Use This Programme you need just to add "Progress : " on every Read Me You make.
+- We Have An Application To Use This Programme you need just to add `Progress : ` on every Read Me You make.
 
 ## 🚦 Usage
 
@@ -44,6 +44,7 @@ pip install -r requirement.txt
 ## 🌐 Important information
 
 - Your GitHub Token is stored on your desktop so no worry if you have any issue feel free to tell me that
+- That project it's not inspired from an tutorial a mix of some ideas some help from chat GPT and commentes are made automatically by an IA fonction and everything is my own work with some IA Help
 
 ---
 
