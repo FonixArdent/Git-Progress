@@ -1,6 +1,6 @@
 ------
 
-> Progress : 
+> Progress : 🔘 Updating
 
 ------
 
@@ -44,9 +44,15 @@ pip install -r requirements.txt
 
 1. Go To "dist"
 
-2. Start the application 'GitProgress.exe'
+2. Start the application 'GitProgress 1.0'
 
 3. Enter Your Information on that app
+
+## 💠 What is new about GitProgress 1.0 :
+
+- Made some change for the main program and fix some problems 
+- Changing the text displayed on the main window
+- Adding a nex icon for the excitable fill
 
 ## 🌐 Important information
 
