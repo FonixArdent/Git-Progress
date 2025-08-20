@@ -70,3 +70,6 @@ For questions or suggestions, contact me on discord [Ardent](https://discord.com
 ---
 
 Thank you for checking out **Git Progress App**! 🌟
+
+
+Progress : 🔘 Updating
