@@ -12,7 +12,7 @@ build/*
 *.spec
 
 # apps
-data/icon_app.ico
+dist/*
 
 # Test File
 __pycache__/*
