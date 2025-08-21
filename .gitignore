@@ -11,8 +11,6 @@ build/*
 .settings/*
 *.spec
 
-# apps
-dist/*
 
 # Test File
 __pycache__/*
