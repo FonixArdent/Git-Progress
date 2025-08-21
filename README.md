@@ -28,7 +28,7 @@ This README provides all the essential information you need.
 ## 🛠️ Installation For the project
 
 ```bash
-git clone https://github.com/FonixArdent/progress.git
+git clone https://github.com/FonixArdent/Git-Progress
 cd Git_Progress  #if it's needed
 pip install -r requirements.txt
 
@@ -40,8 +40,18 @@ pip install -r requirements.txt
 
 - We Have An Application To Use This Programme you need just to add `Progress : ` on every Read Me You make.
   
-1. Git Progress V0 [🔗](https://github.com/FonixArdent/Git-Progress/tree/GitProgress-V0)
-2. Git Progress V1 [🔗](https://github.com/FonixArdent/Git-Progress/tree/GitProgress-V1)
+1. Git Progress V0 [🔗](https://github.com/FonixArdent/Git-Progress/tree/Git-Progress-V0)
+2. Git Progress V1 [🔗](https://github.com/FonixArdent/Git-Progress/tree/Git-Progress-V1)
+----
+
+# Change Logs
+
+----
+
+## 💠 What is new about GitProgress app:
+
+- nothing special it's the first app
+
 
 ## 💠 What is new about GitProgress 1.0 app:
 
@@ -55,6 +65,11 @@ pip install -r requirements.txt
 - That project it's not inspired from an tutorial a mix of some ideas some help from chat GPT and commentes are made automatically by an IA fonction and everything is my own work with some IA Help
 
 ---
+
+# More text
+
+---
+
 
 ## 🤝 Contributing
 
