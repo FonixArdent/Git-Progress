@@ -10,3 +10,7 @@ settings.local.*
 build/*
 .settings/*
 *.spec
+
+# apps
+dist/*
+*.exe

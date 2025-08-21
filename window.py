@@ -38,12 +38,13 @@ class NeonApp(QWidget):
         self.resize(950, 650)
         self.setWindowFlags(self.windowFlags() | Qt.WindowType.Window)  # Window is resizable
 
-        self.setWindowIcon(QIcon("data/icon_app.ico"))
+        self.setWindowIcon(QIcon("data/main-app.ico"))
 
         # Set neon-themed stylesheet
         self.setStyleSheet("""
-            QWidget {
-                background-color: #0a0a0f;
+                QWidget {
+                    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #0a0a0f, stop:1 #001f24);
                 color: #00fff7;
                 font-family: 'Consolas', 'Courier New', monospace;
             }
@@ -53,6 +54,7 @@ class NeonApp(QWidget):
                 margin-bottom: 25px;
                 letter-spacing: 2px;
                 color: #00fff7;
+                text-shadow: 0 0 10px #00fff7;
             }
             QLineEdit, QComboBox, QTextEdit {
                 border-radius: 12px;
@@ -74,6 +76,9 @@ class NeonApp(QWidget):
                 color: #00fff7;
             }
             QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                            stop:0 #0a0a0f, stop:1 #001f24);
+        
                 background-color: #00fff7;
                 border: none;
                 border-radius: 14px;
@@ -226,6 +231,7 @@ class NeonApp(QWidget):
         self.apply_btn.setGraphicsEffect(shadow_btn)
         self.approve_btn.setGraphicsEffect(shadow_btn)
 
+
         # Output summary text area
         self.output = QTextEdit()
         self.output.setReadOnly(True)
@@ -236,9 +242,10 @@ class NeonApp(QWidget):
         # Neon shadow effect for output text
         shadow_text = QGraphicsDropShadowEffect()
         shadow_text.setBlurRadius(30)
-        shadow_text.setColor(QColor(0, 255, 255, 150))
+        shadow_text.setColor(QColor(0, 255, 255, 150))  # neon cyan shadow
         shadow_text.setOffset(0, 0)
         self.output.setGraphicsEffect(shadow_text)
+
 
         # Config file paths
         self.config_dir = os.path.join(os.getenv("APPDATA") or os.path.expanduser("~"), "GitHubProgression")
