@@ -14,3 +14,7 @@ build/*
 # apps
 dist/*
 *.exe
+
+# Test File
+__pycache__/*
+*.pyc
